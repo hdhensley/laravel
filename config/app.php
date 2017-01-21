@@ -167,7 +167,8 @@ return [
          * Package Service Providers...
          */
 
-        //
+        Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
+        Yab\Laracogs\LaracogsProvider::class,
 
         /*
          * Application Service Providers...
